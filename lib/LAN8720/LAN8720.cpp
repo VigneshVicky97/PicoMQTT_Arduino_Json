@@ -5,7 +5,7 @@ void LAN8720::init()
 {
     Serial.print("\nStarting HelloServer on " + String(ARDUINO_BOARD));
     Serial.println(" with " + String(SHIELD_TYPE));
-    // Serial.println(WEBSERVER_WT32_ETH01_VERSION);
+    // Serial.println(WEBSERVER_WT32_ETH01_VERSION);  // Showing error
 
     // To be called before ETH.begin()
     WT32_ETH01_onEvent();
